@@ -1,0 +1,84 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(../assets/fonts/Comfortaa.ttf);
+}
+
+@keyframes FadeIn {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 100;
+    }
+}
+
+* {
+    font-family: Comfortaa;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../assets/images/rainbow-lite.jpg);
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*
+div {
+    background-color: aqua;
+    background-image: url(../assets/patterns/pattern_01_transparent.png);
+    background-repeat:repeat;
+    background-size: 20px;
+}
+*/
+
+img.StretchToFitVertical{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    min-width: 200vh;
+}
+
+div.CenterText{
+    text-align: center;
+}
+
+.Fixed{
+    position: fixed;
+}
+
+#TitleDiv{
+    position: absolute;
+    width: 100vw;
+    bottom: calc(
+        49.75vh
+        - 2.5vw
+    );
+
+    animation: FadeIn 3s;
+    animation-delay: 1.0s;
+    animation-fill-mode: both;
+}
+
+#Title {
+    font-size: 10vw;
+    color: darkgrey;
+}
+
+#Sea {
+    position: absolute;
+    top: 50vh;
+    bottom: 0vh;
+    left: 0vw;
+    right: 0vw;
+
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+    background-image: url(../assets/images/rainbow.jpg);
+    background-size: 100% 100%;
+}
