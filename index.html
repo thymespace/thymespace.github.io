@@ -5,6 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="index.js"></script>
 </head>
 
 
@@ -20,22 +21,31 @@
     </div>
 
     <div id = "ButtonContainer">
-        <a href="html/EN_portfolio.html">
-        <div class = "ButtonOuterBlue">
+        <a>
+        <div class = "ButtonOuterBlue" id = "LanguageEN" onclick = "LanguageSelect_EN()">
             <div class = "ButtonInner">
                 EN
             </div>
         </div>
         </a>
 
-        <a href="html/JP_portfolio.html">
-        <div class = "ButtonOuterBlue">
+        <a>
+        <div class = "ButtonOuterBlue" id = "LanguageJP" onclick = "LanguageSelect_JP()">
             <div class = "ButtonInner">
                 JP
             </div>
         </div>
-        </a>"
+        </a>
         
+    </div>
+
+    <div id = "MainContainer">
+        <!--Corner Decorations-->
+        <img src = "assets/images/Corner.png" class="DecorCorner" style="top: -1.5vw; left: -1.5vw;">
+        <img src = "assets/images/Corner.png" class="DecorCorner" style="bottom: -1.5vw; right: -1.5vw; transform: rotate(180deg);">
+
+        <h1 id = "temp">Under Construction!</h1>
+
     </div>
 
 </body>
