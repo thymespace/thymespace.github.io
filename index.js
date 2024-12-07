@@ -9,8 +9,8 @@ const Localisation = [
     "ABOUT",
 
     "IntroductionBody",
-    "I am a game developer and game design student who loves all things games.\nFluent in many programming langauges, and familiar with more.\n\nI don't currently have any professional experience, but I am looking for some. Please contact me if you are hiring!",
-    "日本語まだ勉強中なので、間違いがあったら許してください。\n\nゲーム開発者とゲームデザイン学生で。ゲーム全般を愛しています。\n多くのプログラミング言語に堪能で、さらに多くの言語に精通している。\n今でプロとしての経験はありませんが、いくつか探しています。募集している方はご連絡ください！いつか日本で働きたい。",
+    "I am a game developer and game design student who loves all things games. Fluent in many programming langauges, and familiar with more. I love making cool things while keeping them optimised.\n\nI don't currently have any professional experience, but I am looking for some. Please contact me if you are hiring!",
+    "日本語まだ勉強中なので、間違いがあったら許してください。\n\nゲーム開発者とゲームデザイン学生で。ゲーム全般を愛しています。多くのプログラミング言語に堪能で、さらに多くの言語に精通している。最適化とクールなものを作るのが好き！！\n今でプロとしての経験はありませんが、いくつか探しています。募集している方はご連絡ください！いつか日本で働きたい。",
 
     "ConfidentLogos",
     "I'm confident in:",
