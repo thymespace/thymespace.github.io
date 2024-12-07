@@ -229,8 +229,6 @@ a.FillDiv {
 }
 
 #MainContainerInner{
-    top: 0%;
-    bottom: 0%;
     /*left: 0%;
     right: 0%;*/
     overflow-x: hidden;
@@ -250,6 +248,8 @@ a.FillDiv {
     margin: 1vw;
 
     transition: width 0.5s ease-out;
+
+    overflow: hidden;
 }
 
 div.NavbarButton{
@@ -257,6 +257,7 @@ div.NavbarButton{
     background-image: url(../assets/patterns/pattern_01_transparent.png);
     background-size: 1vw;
     background-color: #00000000;
+
     color: whitesmoke;
 
     font-size: calc(2vw + 2vh);
@@ -281,14 +282,17 @@ div.NavbarButton:hover{
 @media screen and (min-width: 600px) {
 
     #Navbar{
-        width: 10vw;
-
+        width: 3vw;
         display: flex;
         flex-direction: column;
     }
 
+    #MainContainerInner{
+        width: 98.5vw;
+    }
+
     #Navbar:hover{
-        width: 15vw;
+        width: 5vw;
 
         display: flex;
         flex-direction: column;
