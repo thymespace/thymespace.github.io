@@ -39,6 +39,14 @@
     text-decoration: none;
 }
 
+h2{
+    font-size: calc(2.5vw + 5vh);
+}
+
+p{
+    font-size: calc(1vw + 2vh);
+}
+
 body {
     background-image: url(../assets/images/rainbow-lite.jpg);
     background-size: 100% 100%;
@@ -100,11 +108,17 @@ div.ButtonOuterBlue{
 }
 
 div.Section{
+    background-image: url(../assets/patterns/pattern_01_transparent.png);
+    background-size: 1vw;
+    
     position: relative;
-    width: 93vw;
-    height: calc(100vh - 4vw);
+    width: 91.5vw;
+    height: calc(92.5vh - 4vw);
+    margin: 1vw;
     padding: 1vw;
     color: whitesmoke;
+    background-color: #404040;
+    overflow: hidden;
 }
 
 .Fixed{
@@ -193,7 +207,7 @@ div.Section{
     animation-duration: 1s;
     animation-fill-mode: forwards;
 
-    background-color: #494949d3;
+    background-color: #49494940;
     opacity: 0;
 
     transition: opacity;
@@ -210,4 +224,19 @@ div.Section{
     right: 0%;
     overflow-x: hidden;
     overflow-y: scroll;
+}
+
+#IntroductionImageDiv{
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 50%;
+}
+
+#IntroductionImage{
+    opacity: 10%;
+    position: absolute;
+    height: calc(95vh - 4vw);
+    right: 0%;
+    bottom: 0%;
 }
