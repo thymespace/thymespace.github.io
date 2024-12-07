@@ -28,6 +28,18 @@ const Localisation = [
     "My Work",
     "WORKS",
 
+    "Works1Description",
+    "One of my more complicated projects, created for a group assignment. The game is rendered entirely on the windows command line.\nI wrote the rendering, collision, physics, combat, tilemap reading and procedural generation.",
+    "より複雑なプロジェクトのひとつで、グループ課題のために制作した。このゲームはすべてWindowsのコマンドラインでレンダリングされています。\nレンダリング、コリジョン、物理演算、戦闘、タイルマップ読み取り、プロシージャル生成は私が書いた。",
+
+    "Works2Name",
+    "Unnamed Jump King Clone + NeuroEngine",
+    "名無しのJUMP KINGクローン + NeuroEngine",
+
+    "Works2Description",
+    "A Jump King clone made in less than an hour to prove the ease of use of my experimental game engine, NeuroEngine. NeuroEngine was build from scratch, using OpenGL as the rendering library. It uses an object-component system with custom scripting similar to Unity.",
+    "私の実験的ゲームエンジン「NeuroEngine」の使いやすさを証明するために、1時間足らずで作ったJUMP KINGのクローン。NeuroEngineは、OpenGLをレンダリングライブラリとして使い、ゼロから構築した。Unityに似たカスタムスクリプトとオブジェクトコンポーネントシステムを使用しています。",
+
     "ContactButton",
     "Contact Me",
     "CONTACT",

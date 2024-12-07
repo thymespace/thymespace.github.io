@@ -326,3 +326,51 @@ div.NavbarButton:hover{
     right: 0%;
     bottom: 0%;
 }
+
+#WorksBody{
+
+    display: flex;
+    
+
+}
+
+.WorksImage{
+    height: 100%;
+
+}
+
+.WorksItem{
+
+    flex-grow: 0;
+    width: calc(10vw + 10vh);
+    height: calc(10vw + 10vh);
+    background-color: #404040;
+    overflow: hidden;
+    padding-bottom: 3vw;
+    margin: 1vw;
+
+    transition: flex-grow 0.2s ease-out, padding-bottom 0.2s ease-out;
+
+}
+
+p.WorksDescription{
+    font-size: calc(1.0vw + 1.0vh);
+}
+
+.WorksItem:hover{
+
+    flex-grow: 1;
+    height: calc(10vw + 10vh);
+    background-color: #404040;
+    overflow: hidden;
+    padding-bottom: 0vw;
+
+}
+
+.WorksThumbnail{
+    float: left;
+    overflow: hidden;
+    width: calc(10vw + 10vh);
+    height: calc(10vw + 10vh);
+    background-color: aquamarine;
+}
