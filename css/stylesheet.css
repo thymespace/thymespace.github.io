@@ -13,8 +13,18 @@
     }
 }
 
+@keyframes GlitchIn {
+    
+}
+
 @keyframes MainContainerOpen {
-    to{
+    50%{
+        left    : 2vw;
+        right   : 2vw;
+        top     : var(--MainContainerStartTop);
+        bottom  : var(--MainContainerStartBottom);
+    }
+    100%{
         left: 2vw;
         right: 2vw;
         top: 2vw;
@@ -87,6 +97,14 @@ div.ButtonOuterBlue{
 .ButtonOuterBlue:hover{
     background-color: aquamarine;
     width: calc(5vw + 5vh);
+}
+
+div.Section{
+    position: relative;
+    width: 93vw;
+    height: calc(100vh - 4vw);
+    padding: 1vw;
+    color: whitesmoke;
 }
 
 .Fixed{
@@ -175,11 +193,21 @@ div.ButtonOuterBlue{
     animation-duration: 1s;
     animation-fill-mode: forwards;
 
-    background-color: #ffffff7c;
+    background-color: #494949d3;
     opacity: 0;
 
     transition: opacity;
 
     pointer-events: none;
 
+}
+
+#MainContainerInner{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
