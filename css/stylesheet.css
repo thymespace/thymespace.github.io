@@ -75,6 +75,13 @@ img.StretchToFitVertical{
     min-width: 200vh;
 }
 
+img.AboutLogo{
+
+    width: calc(4.5vw + 4.5vh);
+    height: calc(4.5vw + 4.5vh);
+
+}
+
 div.CenterText{
     text-align: center;
 }
