@@ -2,11 +2,11 @@ const Localisation = [
 
     "IntroductionButton",
     "About me",
-    "ＡＢＯＵＴ",
+    "ABOUT",
 
     "IntroductionHeader",
     "About me",
-    "ＡＢＯＵＴ",
+    "ABOUT",
 
     "IntroductionBody",
     "I am a game developer and game design student who loves all things games.\nFluent in many programming langauges, and familiar with more.\n\nI don't currently have any professional experience, but I am looking for some. Please contact me if you're hiring!",
@@ -14,19 +14,35 @@ const Localisation = [
 
     "WorksButton",
     "My Work",
-    "ＷＯＲＫＳ",
+    "WORKS",
 
     "WorksHeader",
     "My Work",
-    "ＷＯＲＫＳ",
+    "WORKS",
 
     "ContactButton",
     "Contact Me",
-    "ＣＯＮＴＡＣＴ",
+    "CONTACT",
 
     "ContactHeader",
     "Contact Me",
-    "ＣＯＮＴＡＣＴ"
+    "CONTACT",
+
+    "ContactBody",
+    "Click here to send me an email!",
+    "ここをクリックしてメールを送ってください！",
+
+    "OtherButton",
+    "Extra",
+    "BONUS",
+
+    "OtherHeader",
+    "Extra",
+    "BONUS",
+
+    "OtherBody",
+    "Song Recommendation",
+    "おすすめの音楽♪",
 
 ];
 

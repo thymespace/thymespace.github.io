@@ -47,6 +47,11 @@ p{
     font-size: calc(1vw + 2vh);
 }
 
+a{
+    color: whitesmoke;
+    font-size: calc(1vw + 2vh);
+}
+
 body {
     background-image: url(../assets/images/rainbow-lite.jpg);
     background-size: 100% 100%;
