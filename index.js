@@ -1,12 +1,32 @@
 const Localisation = [
 
+    "IntroductionButton",
+    "About me",
+    "ＡＢＯＵＴ",
+
     "IntroductionHeader",
     "About me",
     "ＡＢＯＵＴ",
 
     "IntroductionBody",
     "I am a game developer and game design student who loves all things games.\nFluent in many programming langauges, and familiar with more.\n\nI don't currently have any professional experience, but I am looking for some. Please contact me if you're hiring!",
-    "日本語まだ勉強中なので、間違いがあったら許してください。\n\nゲーム開発者とゲームデザイン学生で。ゲーム全般を愛しています。\n多くのプログラミング言語に堪能で、さらに多くの言語に精通している。\n\n今でプロとしての経験はありませんが、いくつか探しています。募集している方はご連絡ください！いつか東京で働きたい。"
+    "日本語まだ勉強中なので、間違いがあったら許してください。\n\nゲーム開発者とゲームデザイン学生で。ゲーム全般を愛しています。\n多くのプログラミング言語に堪能で、さらに多くの言語に精通している。\n\n今でプロとしての経験はありませんが、いくつか探しています。募集している方はご連絡ください！いつか東京で働きたい。",
+
+    "WorksButton",
+    "My Work",
+    "ＷＯＲＫＳ",
+
+    "WorksHeader",
+    "My Work",
+    "ＷＯＲＫＳ",
+
+    "ContactButton",
+    "Contact Me",
+    "ＣＯＮＴＡＣＴ",
+
+    "ContactHeader",
+    "Contact Me",
+    "ＣＯＮＴＡＣＴ"
 
 ];
 

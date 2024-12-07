@@ -110,15 +110,25 @@ div.ButtonOuterBlue{
 div.Section{
     background-image: url(../assets/patterns/pattern_01_transparent.png);
     background-size: 1vw;
-    
+    background-color: #404040;
+
     position: relative;
-    width: 91.5vw;
+    
     height: calc(92.5vh - 4vw);
+    width: auto;
+    
     margin: 1vw;
     padding: 1vw;
     color: whitesmoke;
-    background-color: #404040;
     overflow: hidden;
+}
+
+a.FillDiv {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
 }
 
 .Fixed{
@@ -214,16 +224,76 @@ div.Section{
 
     pointer-events: none;
 
+    display: flex;
+
 }
 
 #MainContainerInner{
-    position: absolute;
     top: 0%;
     bottom: 0%;
-    left: 0%;
-    right: 0%;
+    /*left: 0%;
+    right: 0%;*/
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: hidden;
+
+    scroll-behavior: smooth;
+}
+
+#Navbar{
+    background-image: url(../assets/patterns/pattern_01_transparent.png);
+    background-size: 1vw;
+    background-color: #404040;
+
+    color: whitesmoke;
+    text-align: center;
+
+    margin: 1vw;
+
+    transition: width 0.5s ease-out;
+}
+
+div.NavbarButton{
+    overflow: hidden;
+    background-image: url(../assets/patterns/pattern_01_transparent.png);
+    background-size: 1vw;
+    background-color: #00000000;
+    color: whitesmoke;
+
+    font-size: calc(2vw + 2vh);
+    transition: flex-grow 0.5s ease-out, background-color 0.5s ease-out, color 0.1s linear;
+    flex-grow: 1;
+
+    writing-mode:vertical-rl;
+}
+
+div.NavbarButton:hover{
+    flex-grow: 2;
+    background-color: pink;
+    color: #404040;
+}
+
+/*Mobile*/
+@media screen and (max-width: 600px) {
+
+}
+
+/*Desktop*/
+@media screen and (min-width: 600px) {
+
+    #Navbar{
+        width: 10vw;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Navbar:hover{
+        width: 15vw;
+
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 #IntroductionImageDiv{
