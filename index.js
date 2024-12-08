@@ -124,8 +124,13 @@ function LanguageSelect_JP(){
 
 function SetLanguage(language){
 
+    var lang;
+    if(language == 0) lang = 'en';
+    if(language == 1) lang = 'jp';
+
     for(let i = 0; i <Localisation.length; i += 3){
         document.getElementById(Localisation[i]).innerText = Localisation[i + 1 + language];
+        document.getElementById(Localisation[i]).lang = lang;
     }
 
 }
