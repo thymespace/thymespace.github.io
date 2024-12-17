@@ -40,7 +40,7 @@
 }
 
 h2{
-    font-size: calc(2.5vw + 5vh);
+    font-size: calc(2.5vw + 3vh);
 }
 
 p{
@@ -126,11 +126,11 @@ div.Section{
 
     position: relative;
     
-    height: calc(92.5vh - 4vw);
+    height: calc(92.5vh - 8vw);
     width: auto;
     
-    margin: 1vw;
-    padding: 1vw;
+    margin: 2vw;
+    padding: 2vw;
     color: whitesmoke;
     overflow: hidden;
 }
@@ -257,7 +257,9 @@ a.FillDiv {
     color: whitesmoke;
     text-align: center;
 
-    margin: 1vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
 
     transition: width 0.5s ease-out;
 
